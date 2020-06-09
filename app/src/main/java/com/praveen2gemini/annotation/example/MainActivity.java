@@ -47,13 +47,15 @@ public class MainActivity extends AppCompatActivity {
 
     @OnBroadcast(ACTION_INTENT_TEST)
     void showToastOne(Intent intent) {
-        actionTextView.setText("TestButtonOne -> " + intent.getAction());
+        actionTextView.setText("Clicked TestButtonOne\n");
+        actionTextView.append(String.format("Action is %s", intent.getAction()));
         Toast.makeText(this, "Hi custom broadcast receiver for testButtonOne()  " + intent.getAction(), Toast.LENGTH_SHORT).show();
     }
 
     @OnBroadcast(ACTION_SNACKBAR_TEST)
     void showToastTwo(Intent intent) {
-        actionTextView.setText("TestButtonTwo -> " + intent.getAction());
+        actionTextView.setText("Clicked TestButtonTwo\n");
+        actionTextView.append(String.format("Action is %s", intent.getAction()));
         Toast.makeText(this, "Hi custom broadcast receiver for testButtonTwo() " + intent.getAction(), Toast.LENGTH_SHORT).show();
     }
 

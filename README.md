@@ -4,7 +4,7 @@
 
 In this era, Android Annotation processing becomes one of the essential language features in our mobile development. Java-SE supports annotation processing from the release of Java 5 but its full potential has been realized in the recent years. Annotation processing in simple words is used to generate files during compilation.
 
-# If You feel this repository helps you, Please provide your support by putting a star on this project.
+# If You feel this repository helps you, Please provide your support by putting a :star: on this project.
 
 ### To whom useful this project?
 The beginner and the people who wants to explore more and wants to write own annotation to reduce boiler plate codes.
@@ -19,7 +19,11 @@ So optimized it and wrote won annotation make my life easy. Guys you can fork an
 
 ### Queries:
 
-If you want to add some good features, Feel free leave a comment or raise ticket on this repo. I will add the feature. 
+If you want to add some good features, Feel free leave a comment or raise ticket on this repo. I will add the feature. :v: 
+
+### Code implementation:
+![Your MainActivity will appear like this](screenshot/custom_annotation_sample.JPG) 
+
 
 ### License
 ```
