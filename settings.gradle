@@ -1,0 +1,1 @@
+include ':app', ':dxbinder-compiler', ':dxbinder-annotations', ':dxviewbinder'
